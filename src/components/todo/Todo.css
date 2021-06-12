@@ -1,0 +1,24 @@
+.todo__list {
+    text-align: center;
+    display: flex;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 40%;
+}
+
+.button__container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.todo__button {
+    width: 70%;
+    padding-bottom: 5px;
+    align-items: center;
+}
+
+.todo__button:first-child {
+    margin-bottom: 15px;
+}
